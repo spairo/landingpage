@@ -241,12 +241,11 @@ h4 {
 	left: 0px;
 	top: 50px;
 }
-
     .slidesjs-pagination {
       margin: 7px 0 0;
       float: right;
       list-style: none;
- 	  background
+ 	  background: transparent;
     }
 
     .slidesjs-pagination li {
@@ -283,7 +282,7 @@ h4 {
     #slides a:active {
       color: #9e2020
     }
-    
+        
 /* Sections */
 
 .section{

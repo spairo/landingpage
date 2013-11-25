@@ -33,6 +33,9 @@
         		interval: 8000,
         	}
         });
+        //sup.
+        $(".slidesjs-container").css("height","520px");
+       
       });
     </script>
   </head>
