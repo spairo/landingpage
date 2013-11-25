@@ -2,8 +2,7 @@
 <html>
   <head>
     <title>Landing Page</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+        
     <!-- Css-->
     <link href="css/screen.css" rel="stylesheet">
 	<link href="css/io.css" rel="stylesheet">
@@ -12,6 +11,7 @@
 	<!-- Javascript -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js" type="text/javascript"></script>
 	<script type="text/javascript" src="js/jquery.prettyPhoto.js"></script>
+	<script type="text/javascript" src="js/jquery.slides.min.js"></script>
 	
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
@@ -20,6 +20,19 @@
     <script type="text/javascript" charset="utf-8">
       $(document).ready(function(){
         $("a[rel^='prettyPhoto']").prettyPhoto();
+      });
+      $(function(){
+        $("#slides").slidesjs({
+        	width: 940,
+        	height: 520,
+        	navigation: false,
+        	start: 1,
+        	play: {
+        		auto: true,
+        		effect: "fade",
+        		interval: 8000,
+        	}
+        });
       });
     </script>
   </head>
@@ -37,19 +50,49 @@
   				<li><a href="#" class="login"><span class="text">Login</span></a></li>
   			</ul>
   		</div>
-  		<div id="slider">
-  			<div class="box">
-	  			<div class="msg">
-	  				When you find something
-	  				you want to view later,
-	  				put it in Pocket.
-	  			</div>
-	  			<a href="http://vimeo.com/40168555" rel="prettyPhoto" title="">
-	  					<img src="images/video_thumb.jpg" alt="Test" /><span class="video"> Watch video to learn more &raquo;</span>
-	  			</a>
-	  			<br />
-	  			<a href="#" class="signup">sign up now</a>
-  			</div>
+  		<div id="slides">
+  			<div class="img1">
+  				<div class="box">
+  					<div class="msg">
+  						When you find something
+  						you want to view later,
+  						put it in Pocket.
+  					</div>
+  					<a href="http://vimeo.com/40168555" rel="prettyPhoto" title="">
+  							<img src="images/video_thumb.jpg" alt="Test" /><span class="video"> Watch video to learn more &raquo;</span>
+  					</a>
+  					<br />
+  					<a href="#" class="signup">sign up now</a>
+  				</div>
+  			</div> 
+  			<div class="img2">
+  				<div class="box">
+  					<div class="msg">
+  						When you find something
+  						you want to view later,
+  						put it in Pocket.
+  					</div>
+  					<a href="http://vimeo.com/40168555" rel="prettyPhoto" title="">
+  							<img src="images/video_thumb.jpg" alt="Test" /><span class="video"> Watch video to learn more &raquo;</span>
+  					</a>
+  					<br />
+  					<a href="#" class="signup">sign up now</a>
+  				</div>
+  			</div> 
+  			<div class="img3">
+  				<div class="box">
+  					<div class="msg">
+  						When you find something
+  						you want to view later,
+  						put it in Pocket.
+  					</div>
+  					<a href="http://vimeo.com/40168555" rel="prettyPhoto" title="">
+  							<img src="images/video_thumb.jpg" alt="Test" /><span class="video"> Watch video to learn more &raquo;</span>
+  					</a>
+  					<br />
+  					<a href="#" class="signup">sign up now</a>
+  				</div>
+  			</div>		    
   		</div>
 		<div class="section">
 			<div class="container">
