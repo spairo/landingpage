@@ -631,7 +631,7 @@ h4 {
 	text-decoration: none;
 }
 
-.footer .social{
+.footer .social-right{
 	position: relative;
 	top: 58px;
 	left: 230px;
@@ -639,17 +639,17 @@ h4 {
 	display: inline;
 	float: left;
 }
-.footer .social li{
+.footer .social-right li{
 	display: inline;
 	color: #777777;
 	margin-right: 10px;
 }
-.footer .social li a{
+.footer .social-right li a{
 	color: #777777;
 	font-size: 24px;
 	text-decoration: none;
 }
-.footer .social li a:hover{
+.footer .social-right li a:hover{
 	color: #478F8F;
 	cursor: pointer;
 	text-decoration: none;

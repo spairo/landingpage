@@ -1,8 +1,11 @@
 <!DOCTYPE html>
 <html>
   <head>
+  	<meta charset='UTF-8' />
+  	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" >
+  	
     <title>Landing Page</title>
-        
+     
     <!-- Css-->
     <link href="css/screen.css" rel="stylesheet">
 	<link href="css/io.css" rel="stylesheet">
@@ -17,7 +20,7 @@
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
     <![endif]-->
     
-    <script type="text/javascript" charset="utf-8">
+    <script type="text/javascript">
       $(document).ready(function(){
         $("a[rel^='prettyPhoto']").prettyPhoto();
       });
@@ -189,7 +192,7 @@
 				<li><a href="#">Support</a></li>
 				<li><a href="#">Jobs</a></li>
 			</ul>
-			<ul class="social">
+			<ul class="social-right">
 				<li>Connect:</li>
 				<li><a href="#"><span class="icon-twitter"></span></a></li>
 				<li><a href="#"><span class="icon-facebook"></span></a></li>
