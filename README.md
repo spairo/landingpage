@@ -3,6 +3,6 @@ landingpage
 
 Only for evaluation,
 
-url: http://comingsoon.cybersickness.net/
+url: XXXXX
 
 getpocket.com - All right reserved.
